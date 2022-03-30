@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(to right, #2788a5, #157dd3);
+    background-size: 100%;
+    font: normal 15pt Arial;
+  
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000046;
+}
+input.txti, input.txtf, input.txtint {
+    width: 300px;
+    text-align: center;
+
+}
+div {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}

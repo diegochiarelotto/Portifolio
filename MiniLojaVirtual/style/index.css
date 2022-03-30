@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+#produtos{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+#carrinho {
+    display: block
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.produtos {
+    width: 33.3%;
+    padding: 20px;
+}
