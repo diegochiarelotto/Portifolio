@@ -44,7 +44,7 @@ body {
 }
 .nav_header a {
     text-decoration: none;
-    color: var(--Paleta03);
+    color: var(--Escrita);
     transition: 0.5s;
     font-weight: bold;
 }
@@ -54,6 +54,7 @@ body {
     border-radius: 6px;
 }
 .conteudo {
+    background-color: darkcyan;
     text-align: center;
     padding-top: 6em;
     height: 100vw;
@@ -69,6 +70,12 @@ body {
     border: none;
     color: var(--Escrita);
     cursor: pointer;
+}
+footer {
+    background-color: #8C52FF;
+    display: block;
+    text-align: center;
+   
 }
 @media screen and (max-width: 768px) {
     .btnico_header {
