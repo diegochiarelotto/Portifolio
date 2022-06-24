@@ -45,23 +45,19 @@ function atualizaInterace() {
         };
     });
     if(candidato.length > 0){
-        canditado = candidato[0];//Achou o candidato
+        candidato = candidato[0];//Achou o candidato
         seuVotoPara.style.display = 'block';
-        avisoVoto.style.display = 'block';
-        descGeral.innerHTML = `Nome:${candidato.nome}`;
-        
-        console.log(candidato);
-        
-    /*       
- //Montando array de fotos
+        descGeral.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;        
+//Montando array de fotos
     let fotosHTML = '';
-        for(let i in candidato.fotos) {
+        for(let i in candidato.fotos){
             fotosHTML += `<div class="d-1-image">
-            <img src="img/Prefeito01.png" alt="" />
-            ${candidato.fotos[i].legenda}
-        </div>`*/
+            <img src="img/${candidato.fotos[i].url}" alt="" />
+            ${candidato.fotos[i].legenda} 
+        </div>`;
+        }
+        lateral.innerHTML = fotosHTML;
         };
-   // lateral.innerHTML = fotosHTML;
 };
 
 
