@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>Cadastro de Cliente</h1>
+                        <form action="" id="Form">
+                            <div class="form-group">
+                                <label for="Nome">Nome Completo:</label>
+                                <input class="form-control" type="text" name="nome" id="Nome"
+                                    placeholder="Infome seu nome completo...">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">E-mail:</label>
+                                <input class="form-control" type="email" name="e-mail" id="E-mail"
+                                    placeholder="Informe um e-mail válido!">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">Telefone:</label>
+                                <input class="form-control" type="Telefone" name="Telefone" id="Telefone"
+                                    placeholder=" (DDD) xxxx-xxxx">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">Cep:</label>
+                                <input class="form-control" type="text" name="cep" id="Cep" placeholder="Infome o CEP">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">Endereço:</label>
+                                <input class="form-control" type="endereco" name="endereco" id="Endereco">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">Bairro:</label>
+                                <input class="form-control" type="bairro" name="bairro" id="Bairro">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">Complemento:</label>
+                                <input class="form-control" type="complemento" name="complemento" id="Complemento">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">Cidade:</label>
+                                <input class="form-control" type="cidade" name="cidade" id="Cidade">
+                            </div>
+                            <div class="form-group">
+                                <label for="Nome">UF:</label>
+                                <input class="form-control" type="uf" name="uf" id="Uf">
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="submit" value="Enviar" class="btn btn-primary">
+                            </div>
+                            <div class="alert alert-danger d-none " role="alert">
+                              Atenção!!!      <span id="campoErro"></span>           inválido!
+                        </form>
+                    </div>
+                </div>                
+            </div>                           
+         </div>
+         <div class="col-6">
+            <div class="card">
+                <div class="card-body" id="Mapa">
+                    <!-- <iframe src="https://www.google.com.br/maps?q=75097105,%20Brasil&output=embed"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+
+</html>
